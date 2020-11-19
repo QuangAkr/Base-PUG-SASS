@@ -2,7 +2,10 @@
 Công nghệ sử dụng `Gulp` + `Pug` + `SCSS` + `BrowserSync`
 
 ## Cài đặt
+Yêu cầu: NodeJS, GULP
 Chạy lệnh `npm install` hoặc `yarn install`
 
+## Bắt đầu
+Chạy lệnh: `gulp`
 ## Tác giả
 - [Facebook](https://www.facebook.com/404.index)
