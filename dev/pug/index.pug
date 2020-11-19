@@ -1,0 +1,210 @@
+extends template/main
+
+block variables
+    - var title = 'Trang chủ'
+    - var pageClass = 'index-page'
+
+block content
+    .site_main
+        .exercise_evaluation
+            .container.df
+                .image_exercise
+                    img(src="static/images/content/image_exercise.jpg", alt="")
+                .content
+                    h3.title DUMMY trí lực
+                    .title_content Đánh giá bài tập qua các thông số
+                    .painted Máy sẽ đưa ra kết quả sau mỗi lần tác động
+                    .description Your weekly training plan, based on your fitness level and adapted to your individual goals and needs. Experience maximum motivation, new challenges and consistently increased performance and progress.
+        .scoring_exercise
+            .container
+                .title.tac DUMMY trí lực
+                .title_content.tac Tự động tính điểm bài tập
+                .painted.tac Điểm sẽ được tính toán tự động sau mỗi bài tập
+                .image_symbolize.df.jcsb
+                    .item.df.aife
+                        img(src="static/images/content/image_symbolize.svg", alt="")
+                        span Sức mạnh
+                    .item.df.aife
+                        img(src="static/images/content/image_symbolize.svg", alt="")
+                        span Sức mạnh
+                    .item.df.aife
+                        img(src="static/images/content/image_symbolize.svg", alt="")
+                        span Sức mạnh
+        .criteria_exercise
+            .content
+                .container.df
+                    .criteria_list
+                        .item.df
+                            .serial
+                                img(src="static/images/content/image_serial_1.svg", alt="")
+                            .description.aic
+                                .title Đánh giá sức bền
+                                .painted Dựa trên thời gian đáp ứng lực tác động
+                        .item.df
+                            .serial
+                                img(src="static/images/content/image_serial_2.svg", alt="")
+                            .description.aic
+                                .title Đo độ chính xác
+                                .painted Theo tứng góc đánh và lực tác động tại các vị trí
+                        .item.df
+                            .serial
+                                img(src="static/images/content/image_serial_3.svg", alt="")
+                            .description.aic
+                                .title Đánh giá phản xạ
+                                .painted Theo tứng tốc độ phản xạ đáp ứng trong bài tập
+                        .item.df
+                            .serial
+                                img(src="static/images/content/image_serial_4.svg", alt="")
+                            .description.aic
+                                .title Đánh giá kĩ thuật
+                                .painted dựa vào kết quả bài tập máy sẽ đưa ra đánh giá
+                    .image_criteria
+                        img(src="static/images/content/image_criteria.svg", alt="")
+        .result_exercise
+            .container.df.jcsb.aic
+                .content
+                    h3.title DUMMY trí lực
+                    .title_content Hiển thị & lưu kết quả
+                    .painted Máy sẽ đưa ra kết quả sau mỗi lần tác động
+                    .description Your weekly training plan, based on your fitness level and adapted to your individual goals and needs. Experience maximum motivation, new challenges and consistently increased performance and progress.
+                    .image_download.df.jcsa.aic
+                        .image_download_ios
+                            img(src="static/images/content/image_ios.svg", alt="")
+                        .image_download_android
+                            img(src="static/images/content/image_android.svg", alt="")
+                .result_exercise_image
+                    img(src="static/images/content/image_result.svg", alt="")
+        .rate_result
+            .container.df
+                .rate_result_left
+                .rate_result_right
+                    .content
+                        h3.title DUMMY trí lực
+                        .title_content Đánh giá kết quả
+                        .painted Máy sẽ đưa ra kết quả sau mỗi lần tác động
+                        .description Your weekly training plan, based on your fitness level and adapted to your individual goals and needs. Experience maximum motivation, new challenges and consistently increased performance and progress.
+                    .button_join
+                        button(type="submit") Tham gia cùng cộng đồng dummy trí lực việt nam 
+        .diversity_exercise
+            .container.df.jcsb
+                .diversity_exercise_content
+                    .content
+                        h3.title DUMMY trí lực
+                        .title_content nhiều bộ môn võ thuật
+                        .painted Máy sẽ đưa ra kết quả sau mỗi lần tác động
+                        .description Your weekly training plan, based on your fitness level and adapted to your individual goals and needs. Experience maximum motivation, new challenges and consistently increased performance and progress.
+                    .button_join
+                        button(type="submit") Tham gia cùng cộng đồng dummy trí lực việt nam
+                .diversity_exercise_image
+                    .diversity_exercise_image_top.df
+                        .diversity_exercise_image_karate
+                            img(src="static/images/content/image_karate.svg", alt="")
+                            .text_line.uppercase 
+                                h3 Karate
+                        .diversity_exercise_image_muay
+                            img(src="static/images/content/image_muay.svg", alt="")
+                            .text_line.uppercase
+                                h3 muay Thái
+                    .diversity_exercise_image_bottom.df
+                        .diversity_exercise_image_taekwondo
+                                img(src="static/images/content/image_taewondo.svg", alt="")
+                                .text_line.uppercase
+                                    h3 taekwondo
+                        .diversity_exercise_image_kickboxing
+                                img(src="static/images/content/image_kickboxing.svg", alt="")
+                                .text_line.uppercase
+                                    h3 kickboxing
+        .representative
+            .container
+                .head
+                    h3.title DUMMY trí lực
+                    .title_content nhiều bộ môn võ thuật
+                    .painted Máy sẽ đưa ra kết quả sau mỗi lần tác động
+                .image.df.jcsa
+                    .teacher
+                        img(src="", alt="")
+                        .text_line.uppercase Trương Đình Hoàng
+                    .teacher
+                        img(src="", alt="")
+                        .text_line.uppercase Trương Đình Hoàng
+                    .teacher
+                        img(src="", alt="")
+                        .text_line.uppercase Trương Đình Hoàng
+                    .teacher
+                        img(src="", alt="")
+                        .text_line.uppercase Trương Đình Hoàng
+        .deployment_room
+            .container
+                .content
+                    h3.title.tac DUMMY trí lực
+                    .title_content.tac Các phòng tập đã triển khai
+                .deployment_room_image.df.jcsb
+                    .item
+                        img(src="static/images/content/image_deployment_room.svg", alt="")
+                        .text_line.uppercase Phòng tập D
+                    .item
+                        img(src="static/images/content/image_deployment_room.svg", alt="")
+                        .text_line.uppercase Phòng tập D
+                    .item
+                        img(src="static/images/content/image_deployment_room.svg", alt="")
+                        .text_line.uppercase Phòng tập D
+                .button_join.df.jcc
+                        button(type="submit") Xem danh sách toàn bộ phòng tập
+        .achievements
+            .container
+                .content
+                    h3.title.tac DUMMY trí lực
+                    .title_content.tac Các phòng tập đã triển khai
+                .description.df.jcsb
+                    .item
+                        .item_title.tac.uppercase  25k+
+                        .text_line.uppercase lượt tương tác
+                    .item
+                        .item_title.tac.uppercase   1800+
+                        .text_line.uppercase Người dùng
+                    .item
+                        .item_title.tac.uppercase   45+
+                        .text_line.uppercase bài tập
+                    .item
+                        .item_title.tac.uppercase   10+
+                        .text_line.uppercase giải đấu
+                .achievements_image.df.jcc
+                    img(src="static/images/content/image_achievements.svg", alt="")
+        .feedback 
+            .container
+                .content.tac
+                    h3.title DUMMY trí lực
+                    .title_content Người dùng nói gì về chúng tôi
+                    .painted Cảm nhận sau khi sử dụng máy tập dummy trí lực của một số người
+                .description.df.jcsb
+                    .item
+                        .content.uppercase Steven is an awesome trainer to work with: he is a positive and strong man with kind and sincere intentions to help you! If you are a beginner, he will teach you everything and will be supporting you throughout the entire journey to the body of you dream.
+                        .fa.fa-caret-down
+                        .name.tac
+                            h4.uppercase Quang Trương
+                            span.uppercase Học viên
+                    .item.active
+                        .content.uppercase Steven is an awesome trainer to work with: he is a positive and strong man with kind and sincere intentions to help you! If you are a beginner, he will teach you everything and will be supporting you throughout the entire journey to the body of you dream.
+                        .fa.fa-caret-down.tac
+                        .name.tac
+                            h4.uppercase Quang Trương
+                            span.uppercase Học viên
+                    .item
+                        .content.uppercase Steven is an awesome trainer to work with: he is a positive and strong man with kind and sincere intentions to help you! If you are a beginner, he will teach you everything and will be supporting you throughout the entire journey to the body of you dream.
+                        .fa.fa-caret-down
+                        .name.tac
+                            h4.uppercase Quang Trương
+                            span.uppercase Học viên
+        .image_gallery
+            .container
+                .content.tac
+                    h3.title DUMMY trí lực
+                    .title_content Thư viện hình ảnh
+                    .painted Các hình ảnh tại thực tế
+                .image.df.jcc
+                    .image_main.df.jcc.aic
+                        img(src="static/images/content/image_achievements.svg", alt="")
+                    .image_child
+                    .image_feed_unit
+                        .item
+                        .item

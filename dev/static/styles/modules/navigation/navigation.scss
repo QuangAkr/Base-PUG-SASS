@@ -1,0 +1,45 @@
+.breadcumb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @media all and (max-width: 768px) {
+    display: none;
+  }
+
+  &-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    height: 46px;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    position: relative;
+
+    a {
+      color: #000000;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      right: -13px;
+      height: 6px;
+      width: 6px;
+      z-index: 1;
+      border-top: 1px solid $black;
+      border-right: 1px solid $black;
+      transform: rotate(45deg);
+    }
+
+    &:last-child {
+      font-weight: bold;
+
+      &:after {
+        content: none;
+      }
+    }
+  }
+}

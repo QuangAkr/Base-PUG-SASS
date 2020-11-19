@@ -1,0 +1,86 @@
+// Colors
+$white: #ffffff;
+$black: #000000;
+
+// Sizes
+$base-font-size: 16px;
+$base-font-family: "Anton", sans-serif;
+$base-font-weight: 400;
+
+$breakpoints: (
+  "phone": 400px,
+  "phone-wide": 480px,
+  "phablet": 560px,
+  "tablet-small": 640px,
+  "tablet": 768px,
+  "tablet-wide": 1024px,
+  "desktop": 1248px,
+  "desktop-wide": 1440px,
+);
+
+$content-size: 1200px;
+$content-size-fhd: 1800px;
+.mb20 {
+  margin-bottom: 20px;
+}
+.fr {
+  font-family: Anton;
+  font-style: normal;
+}
+.tac{
+  text-align: center;
+}
+.fwb {
+  font-weight: bold !important;
+}
+.fww {
+  flex-wrap: wrap;
+}
+.df {
+  display: flex;
+  &.jcsb {
+    justify-content: space-between;
+  }
+  &.jcsa {
+    justify-content: space-around;
+  }
+  &.aic {
+    align-items: center;
+  }
+  &.aifs {
+    align-items: flex-start;
+  }
+  &.aife {
+    align-items: flex-end;
+  }
+  &.jcfe {
+    justify-content: flex-end;
+  }
+  &.jcfs {
+    justify-content: flex-start;
+  }
+  &.jcc {
+    justify-content: center;
+  }
+  &.fdc {
+    flex-direction: column;
+  }
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.max_line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  &-2{
+    -webkit-line-clamp: 2; /* number of lines to show */
+  }
+  &-3{
+    -webkit-line-clamp: 3; /* number of lines to show */
+  }
+}
+.p0 {
+  padding: 0 !important;
+}

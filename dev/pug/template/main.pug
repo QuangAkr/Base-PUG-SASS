@@ -1,0 +1,37 @@
+include ../utils/mixins
+block variables
+
+doctype html
+html(lang="vi-VI")
+    head
+        meta(charset="utf-8")
+        title #{title}
+        <!--[if IE]>
+        meta(http-equiv='X-UA-Compatible', content="IE = edge")
+        <![endif]-->
+        meta(name="viewport" content="width=device-width,initial-scale=1")
+        meta(name="keywords" content="")
+        //- font
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700&display=swap")
+        link(href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet")
+        //- css
+        link(href="static/css/slick.min.css" rel="stylesheet")
+        link(href="static/css/slick-theme.min.css" rel="stylesheet")
+        link(href="static/css/magnific-popup.css" rel="stylesheet")
+        //- my style
+        link(rel="stylesheet" type='text/css' href="static/css/styles.min.css")
+    body(class=pageClass)
+        .wrapper
+            include ../modules/header/header
+            .site-content
+                block content
+            include ../modules/footer/footer
+        //- js
+        script(src="static/js/jquery-3.3.1.min.js")
+        script(src="static/js/magnific-popup.min.js")
+        script(src="static/js/slick.min.js")
+        script(src="static/js/libs.min.js")
+        //- my js
+        script(src="static/js/main.js")
+        block script

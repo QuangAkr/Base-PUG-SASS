@@ -1,0 +1,88 @@
+footer {
+    flex: 0 0 auto;
+    width: 100%;
+    background: #1A1A1A;
+
+    .logo {
+        img {
+            width: 213.35px;
+            height: 83.41px;
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-bottom: 4px;
+    }
+
+    span {
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    .list {
+        margin-top: 34px;
+    }
+
+    .item {
+        margin-bottom: 12px;
+
+        img {
+            width: 30px;
+            height: 30px;
+            background: #E32828;
+            margin-right: 13px;
+        }
+
+        span {
+            font-family: "Metrophobic", sans-serif;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+    }
+
+    .menu {
+        margin-top: 50px;
+        margin-right: 145px;
+
+        li {
+            margin-bottom: 24px;
+        }
+
+        a {
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0.08em;
+            color: #FFFFFF;
+        }
+    }
+
+    .content {
+        padding-bottom: 120px;
+    }
+
+    .coppy_right {
+        background: #E32828;
+        padding: 12px 0;
+
+        .coppy_right,
+        .page_management,
+        .privacy_policy {
+            font-size: 14px;
+            line-height: 21px;
+            color: #FFFFFF;
+            border-right: 1px solid #FFFFFF;
+            padding: 0 12px;
+        }
+
+        .privacy_policy {
+            border: none;
+        }
+    }
+}
