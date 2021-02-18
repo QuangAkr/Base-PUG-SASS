@@ -11,4 +11,4 @@ Chạy lệnh `npm install` hoặc `yarn install`
 Chạy lệnh: `gulp`
 
 ## Tác giả
-- [Facebook](https://www.facebook.com/404.index)
+- [Facebook](https://www.facebook.com/quangakita.laptop99.shop/)
